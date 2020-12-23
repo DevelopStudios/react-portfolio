@@ -3,7 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Facebook from "../svg/facebook.svg";
 import Linkedin from "../svg/linkedin.svg";
 import Twitter from "../svg/twitter.svg";
-import Hamburger from 'react-hamburgers';
+
 import "./style.css";
 const MainNavbar = (props) => {
   return (
