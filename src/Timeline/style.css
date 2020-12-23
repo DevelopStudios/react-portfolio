@@ -1,0 +1,15 @@
+.timeline-container .d-flex .icon {
+    border: 1px solid grey;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.timeline-container .d-flex .icon img {
+    width: 22px;
+}
+
+.timeline-container .d-flex .timeline-stamp {
+    border: 1px solid grey;
+    border-radius: 40px;
+    padding: 10px;
+}

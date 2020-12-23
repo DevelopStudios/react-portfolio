@@ -1,0 +1,21 @@
+.experience-container h2.experience-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.experience-container {
+    padding: 100px 5%;
+}
+
+.experience-container .service-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+ }
