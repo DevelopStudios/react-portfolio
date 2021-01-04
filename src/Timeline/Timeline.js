@@ -1,13 +1,27 @@
 import React from "react";
 import "./style.css";
-import suitecase from '../../src/svg/suitecase.svg'
+import suitecase from '../../src/svg/suitecase.svg';
+import hat from '../../src/svg/hat.svg'
 const Timeline = (props) => {
     return (
       <div className="timeline-container">
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <div className="d-flex">
+              <div className="d-flex justify-content-center">
+                <div className="left-container">
+                  <div className="icon">
+                    <img src={suitecase} />
+                  </div>
+                  <div className="line"></div>
+                </div>
+                <div className="right-container">
+                  <div className="timeline-stamp">2017 - PRESENT</div>
+                  <div className="timeline-header">test</div>
+                  <div className="timeline-description">test</div>
+                </div>
+              </div>
+              <div className="d-flex justify-content-center">
                 <div className="left-container">
                   <div className="icon">
                     <img src={suitecase} />
@@ -21,7 +35,34 @@ const Timeline = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-6">test</div>
+            <div className="col-6">
+              <div className="d-flex justify-content-center">
+                <div className="left-container">
+                  <div className="icon">
+                    <img src={hat} />
+                  </div>
+                  <div className="line"></div>
+                </div>
+                <div className="right-container">
+                  <div className="timeline-stamp">2017 - PRESENT</div>
+                  <div className="timeline-header">test</div>
+                  <div className="timeline-description">test</div>
+                </div>
+              </div>
+              <div className="d-flex justify-content-center">
+                <div className="left-container">
+                  <div className="icon">
+                    <img src={hat} />
+                  </div>
+                  <div className="line"></div>
+                </div>
+                <div className="right-container">
+                  <div className="timeline-stamp">2017 - PRESENT</div>
+                  <div className="timeline-header">test</div>
+                  <div className="timeline-description">test</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

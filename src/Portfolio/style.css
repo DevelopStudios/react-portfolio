@@ -1,0 +1,21 @@
+.Portfolio-container .container-fluid .porfolio-flex-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+
+.Portfolio-container .container-fluid .porfolio-flex-container .portfolio-entry {
+    flex-basis: 26%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 10px;
+    display: flex;
+    font-size: 90px;
+    line-height: 90px;
+    color: #fff;
+    height: 330px;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Banner from './Banner/Banner';
 import Experience from './Experience/Experience';
 import Navbar from './Navbar/Navbar';
+import Portfolio from './Portfolio/Portfolio';
 import Timeline from './Timeline/Timeline';
 function App() {
   const [menuSate, setMenuState] = useState({isMenuOpen: false});
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Experience />
       <Timeline />
+      <Portfolio />
     </div>
   );
 }
