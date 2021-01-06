@@ -13,21 +13,21 @@ const Experience = (props) => {
           <div className="row">
             <div className="col-12 col-md-4 text-center">
               <div className="icon">
-                <img src={rocketIcon} />
+                <img src={rocketIcon} alt="Rocket Illustration" />
               </div>
               <div className="service-header">Front End Developement</div>
               <div className="service-description">test</div>
             </div>
             <div className="col-12 col-md-4 text-center">
               <div className="icon">
-                <img src={rocketIcon} />
+                <img src={rocketIcon} alt="rocket illustraion" />
               </div>
               <div className="service-header">Web Developement</div>
               <div className="service-description">test</div>
             </div>
             <div className="col-12 col-md-4 text-center">
               <div className="icon">
-                <img src={rocketIcon} />
+                <img src={rocketIcon} alt="rocket illustraion" />
               </div>
               <div className="service-header">Hosting/Maintenance</div>
               <div className="service-description">test</div>

@@ -6,10 +6,6 @@
 
 
 .Portfolio-container .container-fluid .porfolio-flex-container .portfolio-entry {
-    flex-basis: 26%;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin: 10px;
     display: flex;
     font-size: 90px;
     line-height: 90px;
@@ -18,4 +14,13 @@
     white-space: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.Portfolio-container .porfolio-flex-container a {    flex-basis: 26%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 10px;}
+
+    a:hover {
+    text-decoration: none !important;
 }

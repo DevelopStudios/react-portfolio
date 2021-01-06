@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 import Facebook from "../svg/facebook.svg";
 import Linkedin from "../svg/linkedin.svg";
 import Twitter from "../svg/twitter.svg";
@@ -29,7 +30,9 @@ const MainNavbar = (props) => {
           </div>
         </div>
         <Navbar.Collapse className="justify-content-center">
-          <Navbar.Text>Charl Roux</Navbar.Text>
+          <Navbar.Text>
+            <Link to="/">Charl Roux</Link>
+          </Navbar.Text>
         </Navbar.Collapse>
         <div className="toggleIcon" onClick={props.navToggle}>
           <div

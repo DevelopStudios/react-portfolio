@@ -11,7 +11,7 @@ const Timeline = (props) => {
               <div className="d-flex justify-content-center">
                 <div className="left-container">
                   <div className="icon">
-                    <img src={suitecase} />
+                    <img src={suitecase} alt="Timeline Illustration" />
                   </div>
                   <div className="line"></div>
                 </div>
@@ -24,7 +24,7 @@ const Timeline = (props) => {
               <div className="d-flex justify-content-center">
                 <div className="left-container">
                   <div className="icon">
-                    <img src={suitecase} />
+                    <img src={suitecase} alt="Timeline Illustration" />
                   </div>
                   <div className="line"></div>
                 </div>
@@ -39,7 +39,7 @@ const Timeline = (props) => {
               <div className="d-flex justify-content-center">
                 <div className="left-container">
                   <div className="icon">
-                    <img src={hat} />
+                    <img src={hat} alt="Timeline Illustration" />
                   </div>
                   <div className="line"></div>
                 </div>
@@ -52,7 +52,7 @@ const Timeline = (props) => {
               <div className="d-flex justify-content-center">
                 <div className="left-container">
                   <div className="icon">
-                    <img src={hat} />
+                    <img src={hat} alt="Timeline Illustration" />
                   </div>
                   <div className="line"></div>
                 </div>

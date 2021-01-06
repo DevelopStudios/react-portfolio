@@ -1,0 +1,63 @@
+.Portfolio-Item-Container {
+    margin-top: 90px;
+}
+
+.Portfolio-Item-Container .Portfolio-Item-Banner {
+    position: relative;
+    display: flex;
+    margin-top: 80px;
+    padding: 160px 5% 105px;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../../svg/banner.svg), linear-gradient(51deg, #4DA5C4, #E628A4);
+    background-position: 50% 100%, 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat,repeat;
+    z-index: 1;
+}
+
+.Portfolio-Item-Banner .Text-container .Portfolio-Item-Header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 65px;
+    line-height: 57px;
+}
+
+.Portfolio-Item-Banner .Text-container .Portfolio-Item-Text {
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Portfolio-Item-Banner .Text-container .Portfolio-Item-Text .Portfolio-directory {
+    display: inline-block;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Portfolio-Item-Banner .Text-container .Portfolio-Item-Text .Portfolio-directory-arrow {
+    display: inline-block;
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.Portfolio-Item-Banner .Portfolio-Item-Text .Portfolio-directory.name {
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

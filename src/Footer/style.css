@@ -1,0 +1,15 @@
+.Footer-container {
+    background: #111;
+    color: #fff;
+}
+
+.Footer-container .d-flex.footer-flex {
+    justify-content: space-evenly;
+}
+
+.Footer-container .info-contianer {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    border-bottom: #5697c1 5px solid;
+}
